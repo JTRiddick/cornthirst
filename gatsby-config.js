@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Dimension by HTML5 UP",
-    author: "Hunter Chang",
+    title: "An Enduring Thirst for Corn",
+    author: "JT Riddick",
     description: "A Gatsby.js Starter based on Dimension by HTML5 UP"
   },
   pathPrefix: '/',
