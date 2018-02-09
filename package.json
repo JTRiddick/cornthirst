@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-dimension",
-  "description": "Gatsby Starter - Dimension by HTML5 UP",
+  "name": "Cornthirst",
+  "description": "Waste of Time - Dimension by HTML5 UP",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "JT Riddick",
   "dependencies": {
     "gatsby": "^1.9.118",
     "gatsby-image": "^1.0.27",
@@ -18,7 +18,7 @@
     "gatsby-transformer-sharp": "^1.6.14",
     "lodash": "^4.17.4"
   },
-  "homepage": "https://github.com/ChangoMan/gatsby-starter-dimension",
+  "homepage": "https://github.com/JTRiddick/cornthirst",
   "keywords": [
     "gatsby"
   ],
@@ -26,7 +26,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ChangoMan/gatsby-starter-dimension.git"
+    "url": "https://github.com/JTRiddick/cornthirst.git"
   },
   "scripts": {
     "dev": "gatsby develop",

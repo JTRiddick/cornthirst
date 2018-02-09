@@ -6,6 +6,7 @@ import Header from '../components/Header'
 import Main from '../components/Main'
 import Footer from '../components/Footer'
 
+
 class Template extends React.Component {
   constructor(props) {
     super(props)
@@ -95,6 +96,7 @@ class Template extends React.Component {
             article={this.state.article}
             onCloseArticle={this.handleCloseArticle}
           />
+
           <Footer timeout={this.state.timeout} />
 
         </div>
