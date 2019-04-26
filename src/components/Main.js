@@ -1,5 +1,7 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React, { Fragment } from "react"
+import { Helmet } from "react-helmet"
+import { StaticQuery, graphql } from "gatsby"
+
 
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
