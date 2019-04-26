@@ -1,13 +1,10 @@
-import React, { Fragment } from "react"
-import { Helmet } from "react-helmet"
-import { StaticQuery, graphql } from "gatsby"
-
+import React from 'react'
 import '../assets/scss/main.scss'
-import Helmet from 'react-helmet'
+import {Helmet} from 'react-helmet'
 
-import Header from '../components/Header'
-import Main from '../components/Main'
-import Footer from '../components/Footer'
+import {Header} from './Header'
+import {Main} from './Main'
+import {Footer} from './Footer'
 
 
 class Template extends React.Component {
@@ -113,25 +110,15 @@ Template.propTypes = {
   route: React.PropTypes.object,
 }
 
-export default ({ children }) => (
-     <StaticQuery
-       query={graphql`
-         query LayoutQuery {
-           site {
-             siteMetadata {
-               title
-             }
-           }
-         }
-       `}
-       render={data => (
-         <>
-           <Helmet titleTemplate={`%s | ${data.site.siteMetadata.title}`} defaultTitle={data.site.siteMetadata.title} />
-           <div>
-             {children}
-           </div>
-         </>
-       )}
-     />
-  )
-  
+export default Template
+
+// export const pageQuery = graphql`
+//   query PageQuery {
+//     site {
+//       siteMetadata {
+//         title
+//         description
+//       }
+//     }
+//   }
+// `
