@@ -3,7 +3,8 @@ module.exports = {
   siteMetadata: {
     title: "An Enduring Thirst for Corn",
     author: "JTR",
-    description: "A dumb website about corn  based on Dimension by HTML5 UP"
+    description: "A dumb website about corn  based on Dimension by HTML5 UP",
+    url: "www.anenduringthirstforcorn.com",
   },
   plugins: [
     'gatsby-plugin-react-helmet',
